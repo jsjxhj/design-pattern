@@ -1,8 +1,8 @@
-package com.owen.study.designpattern.factorymethod;
+package com.owen.study.designpattern.factory;
 
-import com.owen.study.designpattern.factorymethod.service.MailSender;
-import com.owen.study.designpattern.factorymethod.service.Sender;
-import com.owen.study.designpattern.factorymethod.service.SmsSender;
+import com.owen.study.designpattern.factory.service.MailSender;
+import com.owen.study.designpattern.factory.service.Sender;
+import com.owen.study.designpattern.factory.service.SmsSender;
 
 /**
  * 普通工厂模式: 建立一个工厂类，对实现了同一接口的一些类进行实例的创建。

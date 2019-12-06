@@ -1,8 +1,8 @@
-package com.owen.study.designpattern.factorymethod;
+package com.owen.study.designpattern.factory;
 
-import com.owen.study.designpattern.factorymethod.service.MailSender;
-import com.owen.study.designpattern.factorymethod.service.Sender;
-import com.owen.study.designpattern.factorymethod.service.SmsSender;
+import com.owen.study.designpattern.factory.service.MailSender;
+import com.owen.study.designpattern.factory.service.Sender;
+import com.owen.study.designpattern.factory.service.SmsSender;
 
 /**
  * 多个方法工厂模式: 对普通工厂方法模式的改进，在普通工厂方法模式中，如果传递的字符串出错，则不能正确创建对象，

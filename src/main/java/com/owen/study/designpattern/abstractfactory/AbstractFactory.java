@@ -9,6 +9,8 @@ import com.owen.study.designpattern.abstractfactory.service.Sender;
  *
  * 抽象工厂模式（Abstract AbstractFactory）：新增一个操作方式类，对应的新增一个实现该接口的工厂类，用于生产出新增的操作方式类。
  *
+ * 抽象工厂定义了工厂的能力, 不同实现工厂提供不同的实现能力, 新增实现能力，提供新的实现工厂。 通常用于生产多种产品的工厂情况
+ *
  * Created by owen on 2017/1/18.
  */
 public interface AbstractFactory {
