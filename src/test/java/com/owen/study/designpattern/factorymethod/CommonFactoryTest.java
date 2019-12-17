@@ -8,12 +8,11 @@ import org.junit.Test;
 /**
  * Created by owen on 2017/1/18.
  */
-public class MailSenderFactoryTest {
+public class CommonFactoryTest {
     @Test
-    public void testProduceSender(){
-        SenderFactory senderFactory = new MailSenderFactory();
-        Sender sender = senderFactory.produce();
+    public void testProduce() {
+        CommonFactory factory = new CommonFactory();
+        Sender sender = factory.produce("mail");
         Assert.assertEquals(sender.getClass(), MailSender.class);
     }
-
 }
