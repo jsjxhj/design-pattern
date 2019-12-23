@@ -1,4 +1,4 @@
-package com.owen.study.designpattern.singleton;
+package com.owen.study.designpattern.creational.singleton;
 
 /**
  * 单例模式，其实就是确保静态工厂方法只创建一个实例

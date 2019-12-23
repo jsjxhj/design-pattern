@@ -1,4 +1,4 @@
-package com.owen.study.designpattern.factorymethod.service;
+package com.owen.study.designpattern.creational.abstractfactory.service;
 
 /**
  * Created by owen on 2017/1/18.

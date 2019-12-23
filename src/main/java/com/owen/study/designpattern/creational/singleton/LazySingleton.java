@@ -1,4 +1,4 @@
-package com.owen.study.designpattern.singleton;
+package com.owen.study.designpattern.creational.singleton;
 
 /**
  * Created by owen on 2017/1/18.

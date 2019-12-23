@@ -1,6 +1,6 @@
-package com.owen.study.designpattern.abstractfactory;
+package com.owen.study.designpattern.creational.abstractfactory;
 
-import com.owen.study.designpattern.abstractfactory.service.*;
+import com.owen.study.designpattern.creational.abstractfactory.service.*;
 import org.junit.Assert;
 import org.junit.Test;
 

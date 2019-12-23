@@ -1,9 +1,9 @@
-package com.owen.study.designpattern.abstractfactory;
+package com.owen.study.designpattern.creational.abstractfactory;
 
-import com.owen.study.designpattern.abstractfactory.service.Receiver;
-import com.owen.study.designpattern.abstractfactory.service.Sender;
-import com.owen.study.designpattern.abstractfactory.service.SmsReceiver;
-import com.owen.study.designpattern.abstractfactory.service.SmsSender;
+import com.owen.study.designpattern.creational.abstractfactory.service.Receiver;
+import com.owen.study.designpattern.creational.abstractfactory.service.Sender;
+import com.owen.study.designpattern.creational.abstractfactory.service.SmsReceiver;
+import com.owen.study.designpattern.creational.abstractfactory.service.SmsSender;
 import org.junit.Assert;
 import org.junit.Test;
 

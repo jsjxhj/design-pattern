@@ -1,4 +1,4 @@
-package com.owen.study.designpattern.abstractfactory.service;
+package com.owen.study.designpattern.creational.abstractfactory.service;
 
 /**
  * @author Owen Xu

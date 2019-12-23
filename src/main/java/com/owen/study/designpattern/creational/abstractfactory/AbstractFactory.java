@@ -1,7 +1,7 @@
-package com.owen.study.designpattern.abstractfactory;
+package com.owen.study.designpattern.creational.abstractfactory;
 
-import com.owen.study.designpattern.abstractfactory.service.Receiver;
-import com.owen.study.designpattern.abstractfactory.service.Sender;
+import com.owen.study.designpattern.creational.abstractfactory.service.Receiver;
+import com.owen.study.designpattern.creational.abstractfactory.service.Sender;
 
 /**
  * 工厂方法模式的问题是，类的创建依赖工厂类，如果想要拓展程序，必须对工厂类进行修改，这违背了闭包原则，

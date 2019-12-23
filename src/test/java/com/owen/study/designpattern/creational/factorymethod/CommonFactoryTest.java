@@ -1,7 +1,7 @@
-package com.owen.study.designpattern.factorymethod;
+package com.owen.study.designpattern.creational.factorymethod;
 
-import com.owen.study.designpattern.factorymethod.service.MailSender;
-import com.owen.study.designpattern.factorymethod.service.Sender;
+import com.owen.study.designpattern.creational.factorymethod.service.MailSender;
+import com.owen.study.designpattern.creational.factorymethod.service.Sender;
 import org.junit.Assert;
 import org.junit.Test;
 
