@@ -12,14 +12,14 @@ import org.junit.Test;
  */
 public class SmsFactoryTest {
     @Test
-    public void testProduceSender(){
+    public void testProduceSender() {
         AbstractFactory abstractFactory = new SmsFactory();
         Sender sender = abstractFactory.produceSender();
         Assert.assertEquals(sender.getClass(), SmsSender.class);
     }
 
     @Test
-    public void testProduceReceiver(){
+    public void testProduceReceiver() {
         AbstractFactory abstractFactory = new SmsFactory();
         Receiver receiver = abstractFactory.produceReceiver();
         Assert.assertEquals(receiver.getClass(), SmsReceiver.class);

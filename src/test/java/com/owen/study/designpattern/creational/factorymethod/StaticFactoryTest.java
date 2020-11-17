@@ -11,13 +11,13 @@ import org.junit.Test;
  */
 public class StaticFactoryTest {
     @Test
-    public void testProduceMailSender(){
+    public void testProduceMailSender() {
         Sender sender = StaticFactory.produceMailSender();
         Assert.assertEquals(sender.getClass(), MailSender.class);
     }
 
     @Test
-    public void testProduceSmsSender(){
+    public void testProduceSmsSender() {
         Sender sender = StaticFactory.produceSmsSender();
         Assert.assertEquals(sender.getClass(), SmsSender.class);
     }

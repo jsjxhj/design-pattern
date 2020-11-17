@@ -7,13 +7,14 @@ package com.owen.study.designpattern.creational.singleton;
  */
 public class EagerSingleton {
     //1.私有的构造函数
-    private EagerSingleton(){}
+    private EagerSingleton() {
+    }
 
     //2.私有的静态成员变量
     private static EagerSingleton eagerSingleton = new EagerSingleton();
 
     //3.获取单例对象的静态方法
-    public static EagerSingleton getInstance(){
+    public static EagerSingleton getInstance() {
         return eagerSingleton;
     }
 }

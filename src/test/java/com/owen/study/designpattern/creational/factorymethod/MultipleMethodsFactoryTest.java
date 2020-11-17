@@ -11,14 +11,14 @@ import org.junit.Test;
  */
 public class MultipleMethodsFactoryTest {
     @Test
-    public void testProduceMailSender(){
+    public void testProduceMailSender() {
         MultipleMethodsFactory sendFactory = new MultipleMethodsFactory();
         Sender sender = sendFactory.produceMailSender();
         Assert.assertEquals(sender.getClass(), MailSender.class);
     }
 
     @Test
-    public void testProduceSmsSender(){
+    public void testProduceSmsSender() {
         MultipleMethodsFactory sendFactory = new MultipleMethodsFactory();
         Sender sender = sendFactory.produceSmsSender();
         Assert.assertEquals(sender.getClass(), SmsSender.class);

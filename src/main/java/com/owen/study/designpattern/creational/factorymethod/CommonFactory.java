@@ -7,7 +7,7 @@ import com.owen.study.designpattern.creational.factorymethod.service.SmsSender;
 
 /**
  * 普通工厂模式: 建立一个工厂类，对实现了同一接口的一些类进行实例的创建。
- *
+ * <p>
  * Created by owen on 2017/1/18.
  */
 public class CommonFactory {
